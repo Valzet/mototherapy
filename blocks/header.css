@@ -1,0 +1,31 @@
+.header {
+
+height: 120px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border-bottom: 1px rgb(43, 40, 40) solid;
+}
+
+.header__logo {
+  padding-left: 40px;
+}
+
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.header__links {
+  list-style-type: none;
+  padding-left: 10px;
+  align-items: center;
+    display: flex;
+
+}
+
+.header__menu {
+  padding-right: 40px;
+}
