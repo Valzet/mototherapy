@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400;600;700&display=swap');
-
+@import url(../blocks/main.css);
 @import url(../vendor/normalize.css);
 @import url(../blocks/header.css);
 @import url(../blocks/root.css);
@@ -7,3 +7,5 @@
 @import url(../blocks/mission.css);
 @import url(../blocks/help.css);
 @import url(../blocks/slider.css);
+@import url(../blocks/mototherapy.css);
+@import url(../blocks/footer.css);

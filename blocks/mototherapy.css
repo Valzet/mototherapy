@@ -1,0 +1,11 @@
+.mototherapy {
+  background-color: rgb(58, 56, 156);
+  min-height: 100vh;
+}
+
+.mototherapy__bg {
+  background: url(../images/aboutUs.jpg) center / cover no-repeat fixed;
+
+}
+
+
