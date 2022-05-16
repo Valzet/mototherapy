@@ -53,7 +53,7 @@
   width: 100%;
 }
 
-.mission__article_type_textblock {
+/* .mission__article_type_textblock {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,7 +67,26 @@
   left: 0;
   z-index: 2;
   transition: opacity .2s linear;
+} */
+
+.mission__article_type_textblock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+
 }
+
+.mission__img {
+  width: 70px;
+  margin: 0 auto 20px;
+
+}
+
+/* ///////////////////////////////// */
 
 .mission__article_type_title {
   margin-bottom: 5px;
@@ -78,8 +97,12 @@
 }
 
 .mission__article_type_text {
-  color: white;
+  /* color: white; */
+  color: black;
+  font-size: 1.5em;
+  margin: 0 auto;
 }
+
 
 .mission__article:hover .mission__article_type_textblock {
   opacity: 1;
