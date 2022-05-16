@@ -1,5 +1,7 @@
 .help {
-margin: 40 auto;
+/* margin: 40 auto; */
+  min-height: 100vh;
+  padding: 80px 0;
 }
 
 .help__block {

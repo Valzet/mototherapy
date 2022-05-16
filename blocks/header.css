@@ -34,3 +34,9 @@ align-items: center;
 .header__menu {
   padding-right: 80px;
 }
+
+.header__link {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+}
