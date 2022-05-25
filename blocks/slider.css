@@ -1,3 +1,33 @@
 .slider {
   margin: 0 auto;
+  background-color: rgb(212, 212, 212);
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.slider__content-area {
+  max-width: 1180px;
+  margin: 0 auto;
+  min-height: 60vh;
+
+}
+
+
+.slider__title {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.slider__text {
+  font-size: 1.5em;
+}
+
+.slider__link {
+  list-style: none;
+  text-decoration: none;
+  color: black;
 }

@@ -3,12 +3,26 @@ margin: 0 auto;
 background-color: rgb(212, 212, 212);
 height: 40px;
 display: flex;
-justify-content: center;
+/* justify-content: center; */
 align-items: center;
+flex-direction: column;
+height: 10vh;
+justify-content: space-between;
 }
 
 .footer__copyright {
   list-style: none;
-  color: black;
   text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+
+}
+
+.footer__link {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font-size: 1em;
+  padding-left: 10px;
+  font-weight: 400;
 }
