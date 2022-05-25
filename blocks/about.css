@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
-
+  padding: 40 20px;
 }
 
 .about__container {
@@ -21,6 +21,7 @@
   width: 100%;
   border-radius: 2%;
   transition: 1s;
+  max-width: 600px;
 }
 
 
@@ -43,4 +44,13 @@
 
 .about__img:hover {
   transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 1224px) {
+ .about__container {
+  grid-template-columns: 1fr;
+  justify-items: center;
+ }
+
 }
